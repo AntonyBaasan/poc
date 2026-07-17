@@ -1,0 +1,44 @@
+# Maven / Spring Boot
+/target/
+*.log
+*.tmp
+*.class
+*.jar
+*.war
+*.ear
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+out/
+logs/
+*.log
+spring.log
+application*.yml
+application*.properties
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/**/tmp/
+docker/**/cache/
+docker/**/logs/
+docker/**/.env
+docker/**/.swp
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Generated files
+**/docker-compose.override.yml

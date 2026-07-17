@@ -1,0 +1,26 @@
+# Maven build output
+/target/
+
+# Eclipse / IntelliJ files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE workspace files
+.vscode/
+
+# Spring Boot
+spring.log
+
