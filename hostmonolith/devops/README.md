@@ -1,0 +1,1 @@
+This folder holder all the commands and config files for spinning up the k8s cluster and configuration.
