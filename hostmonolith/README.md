@@ -13,6 +13,8 @@ cd backend
 
 The application will start on `http://localhost:8080` by default.
 
+Swagger `http://localhost:8080/swagger-ui/index.html#/`
+
 Alternatively, to build and run the JAR:
 
 ```bash
