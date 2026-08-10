@@ -5,7 +5,7 @@ From this folder, use a virtual environment and then start the app.
 ## 1) Create and activate a virtual environment
 
 ```bash
-cd /Users/ant/git/poc/webdevtools
+cd /Users/ant/git/poc/webdevtools/backend
 python3 -m venv .venv
 source .venv/bin/activate
 ```

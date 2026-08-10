@@ -48,10 +48,6 @@ node_modules/
 # React/Vite build
 frontend/dist/
 
-# If your React build is copied into FastAPI during Docker build,
-# don't commit the generated files.
-backend/static/
-
 # Vite
 .vite/
 
@@ -99,3 +95,5 @@ Thumbs.db
 *.temp
 *.swp
 *.swo
+
+frontend/dist/
