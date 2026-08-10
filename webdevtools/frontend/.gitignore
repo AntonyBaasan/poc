@@ -1,0 +1,101 @@
+# =========================
+# Python
+# =========================
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Packaging
+*.egg
+*.egg-info/
+dist-python/
+build/
+pip-wheel-metadata/
+
+# =========================
+# FastAPI / Python tools
+# =========================
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# React / Node
+# =========================
+
+node_modules/
+
+# React/Vite build
+frontend/dist/
+
+# If your React build is copied into FastAPI during Docker build,
+# don't commit the generated files.
+backend/static/
+
+# Vite
+.vite/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# IDE / Editors
+# =========================
+
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
