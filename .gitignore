@@ -24,3 +24,4 @@
 # Spring Boot
 spring.log
 
+.venv/
